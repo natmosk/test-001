@@ -1,4 +1,4 @@
-name: "📄 Product Requirement As Needed yml"
+name: "📄 Product Requirement As Needed in YAML"
 description: "Describe a new product requirement"
 title: "[PRD] "
 labels: ["type:prd"]
@@ -10,7 +10,7 @@ body:
     attributes:
       label: "👥 Customer / Stakeholder"
       description: "Who is requesting this requirement? (specific customer, customer segment, or internal team)"
-      placeholder: "e.g., Enterprise clients in finance sector, Customer X"
+      placeholder: ""
     validations:
       required: true
 
@@ -19,12 +19,7 @@ body:
     attributes:
       label: "💰 Revenue Impact"
       description: "Estimate the revenue potential (direct, indirect, or cost savings). Include assumptions and time horizon."
-      placeholder: |
-        - Direct revenue:
-        - Indirect revenue:
-        - Cost savings / efficiency:
-        - Time horizon:
-        - Key assumptions:
+      placeholder: ""
     validations:
       required: false
 
@@ -33,7 +28,7 @@ body:
     attributes:
       label: "📅 Required (Wish) Date"
       description: "When is this functionality ideally needed?"
-      placeholder: "e.g., Q2 2025 to align with customer renewal"
+      placeholder: ""
     validations:
       required: false
 
@@ -42,9 +37,7 @@ body:
     attributes:
       label: "📝 Summary / Business Case"
       description: "A short description of the requirement and why it matters."
-      placeholder: |
-        Problem statement:
-        Value to customers/business:
+      placeholder: ""
     validations:
       required: true
 
@@ -53,10 +46,7 @@ body:
     attributes:
       label: "🎯 Detailed Requirement"
       description: "Detailed description of what’s needed."
-      placeholder: |
-        - User stories / scenarios
-        - Acceptance criteria (if known)
-        - Dependencies / constraints
+      placeholder: ""
     validations:
       required: true
 
@@ -65,9 +55,6 @@ body:
     attributes:
       label: "🔗 Links / References"
       description: "Add related issues, designs, mockups, or supporting docs."
-      placeholder: |
-        - Related issues: #
-        - Designs / mockups:
-        - Supporting docs / notes:
+      placeholder: ""
     validations:
       required: false
