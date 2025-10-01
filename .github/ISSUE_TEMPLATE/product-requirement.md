@@ -1,5 +1,5 @@
 ---
-name: "📄 Product Requirement"
+name: "📄 Product Requirement As Needed"
 about: "Describe a new product requirement"
 title: "[PRD] "
 labels: ["type:prd"]
