@@ -10,7 +10,6 @@ body:
     attributes:
       label: "👥 Customer / Stakeholder"
       description: "Who is requesting this requirement? (specific customer, customer segment, or internal team)"
-      placeholder: ""
     validations:
       required: true
 
@@ -19,7 +18,6 @@ body:
     attributes:
       label: "💰 Revenue Impact"
       description: "Estimate the revenue potential (direct, indirect, or cost savings). Include assumptions and time horizon."
-      placeholder: ""
     validations:
       required: false
 
@@ -28,7 +26,6 @@ body:
     attributes:
       label: "📅 Required (Wish) Date"
       description: "When is this functionality ideally needed?"
-      placeholder: ""
     validations:
       required: false
 
@@ -37,7 +34,6 @@ body:
     attributes:
       label: "📝 Summary / Business Case"
       description: "A short description of the requirement and why it matters."
-      placeholder: ""
     validations:
       required: true
 
@@ -46,7 +42,6 @@ body:
     attributes:
       label: "🎯 Detailed Requirement"
       description: "Detailed description of what’s needed."
-      placeholder: ""
     validations:
       required: true
 
@@ -55,6 +50,5 @@ body:
     attributes:
       label: "🔗 Links / References"
       description: "Add related issues, designs, mockups, or supporting docs."
-      placeholder: ""
     validations:
       required: false
