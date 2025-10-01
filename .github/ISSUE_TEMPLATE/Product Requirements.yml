@@ -21,13 +21,14 @@ body:
     validations:
       required: false
 
-  - type: date
-    id: required-date
-    attributes:
-      label: "📅 Required (Wish) Date"
-      description: "When is this functionality ideally needed?"
-    validations:
-      required: false
+  - type: input
+  id: required-date
+  attributes:
+    label: "📅 Required (Wish) Date"
+    description: "Enter the date in format YYYY-MM-DD"
+    placeholder: "2025-10-01"
+  validations:
+    required: false
 
   - type: textarea
     id: summary
