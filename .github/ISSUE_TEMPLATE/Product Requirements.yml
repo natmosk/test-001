@@ -21,7 +21,7 @@ body:
     validations:
       required: false
 
-   - type: input
+  - type: input
     id: required-date
     attributes:
       label: "📅 Required (Wish) Date"
